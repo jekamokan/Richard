@@ -285,7 +285,7 @@ background-size: cover;
             gap: 140px;
             justify-content: center;
             text-align: center;
-            margin:  150px 0 !important;
+            margin:  150px 0 ;
             
 		}
 
@@ -650,6 +650,19 @@ margin-bottom: 160px;
                   width: 300px;
             }
       }
+      .benefits {
+            &__list-second {
+                  gap: 90px;
+            }
+            &__items-number {
+                  font-size: 50px;
+                  line-height: 80px;
+            }
+            &__items-text {
+                  font-size: 16px;
+                  line-height: 15px;
+            }
+      }
 }
 @media (max-width:900px) {
             .header {
@@ -675,6 +688,21 @@ margin-bottom: 160px;
                   margin: 15px 0 45px;
                   font-size: 35px;
             }
+      }
+      .benefits {
+            &__list-second {
+                  gap: 50px;
+                  margin: 100px;
+            }
+            &__items-number {
+                  font-size: 50px;
+                  line-height: 80px;
+            }
+            &__items-text {
+                  font-size: 17px;
+                  line-height: 20px;
+            }
+      
       }
 }
 @media (max-width:800px) {
@@ -745,6 +773,23 @@ margin-bottom: 160px;
             &__title {
                   font-size: 24px;
             }
+      }
+      .benefits {
+            &__list-first {
+                  flex-direction: column;
+                  align-items: center;
+            }
+            &__text {
+                  width: 400px;
+            }
+            &__list-second {
+                  flex-wrap: wrap;
+                  margin: 50px 0 20px 0;
+            }
+            &__items-second {
+                  width: 35%;
+            }
+      
       }
 }
 @media(max-width:600px) {
@@ -843,6 +888,19 @@ margin-bottom: 160px;
                   align-items: center;
                   text-align: center;
             }
+      }
+      .benefits {
+                        &__text {
+                  width: 300px;
+            }
+            &__list-second {
+                  flex-direction: column;
+                  align-items: center;
+            }
+            &__items-number {
+                   margin-bottom: 0;
+            }
+      
       }
 }
 
