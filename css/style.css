@@ -569,6 +569,23 @@ body {
     font-size: 16px;
     line-height: 15px;
   }
+
+  .eats__img {
+    width: 450px;
+  }
+  .eats__title {
+    font-size: 34px;
+    line-height: 46px;
+    margin: 20px 0 20px;
+  }
+  .eats__sub-title {
+    font-size: 14px;
+    line-height: 29px;
+  }
+
+  .company__content {
+    width: 230%;
+  }
 }
 @media (max-width: 900px) {
   .header__content-title {
@@ -607,6 +624,29 @@ body {
     font-size: 17px;
     line-height: 20px;
   }
+
+  .eats__img {
+    width: 350px;
+  }
+  .eats__under-title {
+    font-size: 11px;
+  }
+  .eats__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 10px 0 15px;
+  }
+  .eats__sub-title {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .eats__items {
+    gap: 60px;
+  }
+
+  .company__content {
+    width: 275%;
+  }
 }
 @media (max-width: 800px) {
   .header__content-title {
@@ -620,6 +660,40 @@ body {
     width: 140px;
     height: 55px;
     font-size: 15px;
+  }
+
+  .eats__img {
+    width: 430px;
+    border-radius: 15px;
+  }
+  .eats__under-title {
+    font-size: 15px;
+  }
+  .eats__title {
+    font-size: 32px;
+    line-height: 43px;
+    margin: 15px 0 20px;
+  }
+  .eats__sub-title {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .eats__items {
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 130px;
+  }
+  .eats__items:nth-child(odd) {
+    flex-direction: column-reverse;
+  }
+  .eats__info {
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .company__content {
+    width: 300%;
   }
 }
 @media (max-width: 700px) {
@@ -673,6 +747,9 @@ body {
     font-size: 24px;
   }
 
+  .benefits {
+    margin-bottom: 130px;
+  }
   .benefits__list-first {
     flex-direction: column;
     align-items: center;
@@ -686,6 +763,16 @@ body {
   }
   .benefits__items-second {
     width: 35%;
+  }
+
+  .slider__text {
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .company__content {
+    width: 350%;
   }
 }
 @media (max-width: 600px) {
@@ -729,6 +816,22 @@ body {
   .mobile__content {
     margin-bottom: 100px;
   }
+
+  .eats__img {
+    width: 400px;
+  }
+  .eats__title {
+    font-size: 28px;
+    line-height: 35px;
+    margin: 15px 0 20px;
+  }
+  .eats__sub-title {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .eats__items {
+    margin-bottom: 110px;
+  }
 }
 @media (max-width: 500px) {
   .mobile__img {
@@ -744,6 +847,26 @@ body {
   }
   .mobile__content {
     margin-bottom: 80px;
+  }
+
+  .eats {
+    margin-bottom: 130px;
+  }
+
+  .slider__text {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .slider__info {
+    margin-bottom: 20px;
+  }
+
+  .company__img {
+    width: 250px;
+    height: 200px;
+  }
+  .company__content {
+    width: 400%;
   }
 }
 @media (max-width: 391px) {
@@ -783,6 +906,9 @@ body {
     text-align: center;
   }
 
+  .benefits {
+    margin-bottom: 110px;
+  }
   .benefits__text {
     width: 300px;
   }
@@ -792,5 +918,13 @@ body {
   }
   .benefits__items-number {
     margin-bottom: 0;
+  }
+
+  .company__img {
+    width: 230px;
+    height: 180px;
+  }
+  .company__content {
+    width: 450%;
   }
 }
