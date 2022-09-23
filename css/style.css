@@ -239,6 +239,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .benefits__items-number {
   font-size: 59px;
@@ -318,6 +319,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 20px 0 50px 0;
+  align-items: center;
 }
 .slider__name {
   font-size: 16px;
@@ -495,6 +497,7 @@ body {
   width: 154px;
   height: 70px;
   background: #FC0A7E;
+  border: 1px solid #FC0A7E;
   font-size: 16px;
   line-height: 26px;
   color: #1C1C1C;
@@ -585,6 +588,10 @@ body {
 
   .company__content {
     width: 230%;
+  }
+
+  .ready {
+    background-size: auto;
   }
 }
 @media (max-width: 900px) {
@@ -721,6 +728,21 @@ body {
     top: 100%;
   }
 
+  .ready__content {
+    margin: 130px 0 140px;
+  }
+  .ready__title {
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .ready__download {
+    width: 170px;
+  }
+  .ready__get {
+    width: 170px;
+  }
+
   .mobile__img {
     width: 220px;
   }
@@ -773,6 +795,24 @@ body {
 
   .company__content {
     width: 350%;
+  }
+
+  .footer {
+    padding: 100px 0 60px;
+  }
+  .footer__logo {
+    margin-top: 120px;
+  }
+  .footer__input {
+    width: 290px;
+    height: 65px;
+  }
+  .footer__btn {
+    width: 130px;
+    height: 65px;
+  }
+  .footer__list {
+    gap: 20px;
   }
 }
 @media (max-width: 600px) {
@@ -832,6 +872,31 @@ body {
   .eats__items {
     margin-bottom: 110px;
   }
+
+  .footer {
+    padding: 80px 0 50px;
+  }
+  .footer__list {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .footer__items {
+    flex: 1 1 33.333%;
+  }
+  .footer__title {
+    text-align: center;
+  }
+  .footer__input {
+    width: 260px;
+    height: 60px;
+  }
+  .footer__btn {
+    width: 121px;
+    height: 60px;
+  }
+  .footer__logo {
+    margin-top: 100px;
+  }
 }
 @media (max-width: 500px) {
   .mobile__img {
@@ -867,6 +932,39 @@ body {
   }
   .company__content {
     width: 400%;
+  }
+
+  .ready__content {
+    margin: 120px 0 130px;
+  }
+  .ready__title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .ready__download {
+    width: 150px;
+    height: 60px;
+  }
+  .ready__get {
+    width: 150px;
+    height: 60px;
+  }
+
+  .footer__title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .footer__input {
+    width: 240px;
+    height: 50px;
+  }
+  .footer__input::placeholder {
+    font-size: 15px;
+  }
+  .footer__btn {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
   }
 }
 @media (max-width: 391px) {
@@ -926,5 +1024,42 @@ body {
   }
   .company__content {
     width: 450%;
+  }
+
+  .ready__content {
+    margin: 100px 0 110px;
+  }
+  .ready__title {
+    font-size: 26px;
+    line-height: 20px;
+  }
+  .ready__links {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer {
+    padding: 70px 0 40px;
+  }
+  .footer__text {
+    text-align: center;
+  }
+  .footer__logo {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 321px) {
+  .company__content {
+    width: 490%;
+  }
+
+  .ready__title {
+    font-size: 23px;
+    line-height: 15px;
+  }
+
+  .content {
+    margin: 90px 0 100px;
   }
 }
